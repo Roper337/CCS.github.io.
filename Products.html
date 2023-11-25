@@ -1,0 +1,190 @@
+<!-- products.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>City Centre Supplements - Products</title>
+    <style>
+        body {
+            background-image: url('#');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            background-color: #f8f9fa;
+            z-index: 1000;
+        }
+
+        .image-container {
+            width: 50%;
+            margin-top: -1in;
+            margin-right: 4in;
+            float: right;
+        }
+
+        .image-container img {
+            width: 200%;
+            border-radius: 15px;
+        }
+
+        .text-box {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-top: 1in;
+            margin-left: 20px;
+            border-radius: 15px;
+            font-weight: bold;
+            width: calc(100% - 40px);
+        }
+
+        .product {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active btn btn-outline-light me-2" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active btn btn-outline-light me-2" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-light" href="contactus.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-light me-2" href="basket.html">Basket</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+        <h1 class="text-start fw-bold" style="margin-top: -40px; margin-left: -200px;">
+            <img src="Screenshot 2023-11-21 at 20.00.09.png" alt="City Centre Supplements Logo">
+        </h1>
+        
+        <h2>Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product">
+                    <!-- Product Image -->
+                    <img src="https://www.phd.com/media/catalog/product/d/i/diet_whey_1kg_chocolate_caramel.png?optimize=medium&fit=bounds&height=582&width=582&canvas=582:582" alt="PHD" class="img-fluid mb-3">
+        
+                    <!-- Product Details -->
+                    <h4>PHD</h4>
+                    <p>PhD Nutrition Diet Whey Low Calorie Protein Powder, Low Carb, High Protein Lean Matrix, Belgian Chocolate Diet Whey Protein Powder, High Protein, 40 Servings Per 1 kg Bag. Containing whey protein concentrate, milk protein concentrate and soy protein isolate; PhD Diet Whey provides high quality protein sources, nutrients and a range of vital ingredients that can be used as part of a calorie controlled nutritional plan and healthy and active weight management lifestyle.</p>
+                   
+                    <p>£14.99</p>
+        
+                    <!-- Add to Basket Button -->
+                    <button class="btn btn-primary">Add to Basket</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <!-- Product Image -->
+                    <img src="https://www.elevatenutrition.com/wp-content/uploads/Elevate-Vanilla-Performance-Protein-2.jpg" alt="My Protein" class="img-fluid mb-3">
+        
+                    <!-- Product Details -->
+                    <h4>Elevate</h4>
+                    <p>24g of dessert flavored plant-based protein with NO Sugar and only 1g of net carbs per serving from a multi-source plant-based blend. Our protein powder is derived from pea and organic hemp protein, dairy and soy-free, certified vegan, keto friendly, non-GMO, gluten-free, contains NO artificial flavors, colors, or sweeteners. Pea Protein Isolate, Organic Hemp Protein, Sweet Potato Powder, Alkalized Cocoa Powder, Natural Flavors, Xanthan Gum, Monk Fruit Extract. </p>
+                    <p>£24.99</p>
+        
+                    <!-- Add to Basket Button -->
+                    <button id="addToBasketBtn" class="btn btn-primary">Add to Basket</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product">
+                    <!-- Product Image -->
+                    <img src="https://assets.sainsburys-groceries.co.uk/gol/8050464/1/640x640.jpg" alt="Sample Product 3" class="img-fluid mb-3">
+        
+                    <!-- Product Details -->
+                    <h4>Optimum Nutrition</h4>
+                    <p>Chocolate Peanut Butter Flavour Ready-to-Mix Protein Powder, with Sweeteners.
+
+                        Naturally Occurring
+                        
+                        Only 1.0 g Per Serving
+                        
+                        100% of the Protein from Whey
+                        
+                        #1 Selling Whey Protein Powder in the World!
+                        
+                        Low Sugar
+                        
+                        For muscle support & repair*
+                        * Protein contributes to the growth and maintenance of muscle mass.
+                        
+                        24g** High protein
+                        5.5g** BCAAs
+                        ** Per serving. GOLD STANDARD 100% WHEY is best enjoyed first thing in the morning .githu. </p>
+                    <p>£19.99</p>
+        
+                    <!-- Add to Basket Button -->
+                    <button class="btn btn-primary">Add to Basket</button>
+                </div>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+        
+    <footer class="text-center p-4">
+        <a href="https://www.facebook.com/" target="_blank" class="me-3"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" class="me-3"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/" target="_blank" class="me-3"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank" class="me-3"><i class="fab fa-linkedin"></i></a>
+        <p class="mt-3">© 2023 City Centre Supplements. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script>
+            // Get the button element
+            var addToBasketBtn = document.getElementById('addToBasketBtn');
+    
+            // Add a click event listener
+            addToBasketBtn.addEventListener('click', function () {
+                // Redirect to the basket page
+                window.location.href = 'basket.html'; // Replace 'basket.html' with the actual URL of your basket page
+            });
+        </script>
+</body>
+
+</html>
+
+                   
